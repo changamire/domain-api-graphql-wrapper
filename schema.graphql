@@ -1,0 +1,8 @@
+type Query {
+  Listing(postCode: String!): [Property]
+}
+
+type Property {
+  suburb: String
+  id: Int!
+}
